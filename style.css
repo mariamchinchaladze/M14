@@ -1,0 +1,93 @@
+.dashboard{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1.2fr;
+    grid-template-rows: repeat(3, 150px);
+    gap: 10px;
+    width: 90%;
+    height: 500px;
+    margin: 30px auto;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.box1 {
+    grid-column: span 2;
+    background-color: lightskyblue;
+}
+.box2{
+    background-color: lightsalmon;
+}
+.box3{
+    background-color: rgb(155, 243, 155);
+    grid-row: span 2;
+}
+.box4{
+    background-color: pink;
+}
+.box5{
+    grid-column: span 2;
+    background-color: rgb(214, 141, 214);
+}
+.box6{
+    background-color: rgb(236, 236, 166);
+}
+.box7{
+    background-color: skyblue;
+    grid-column: span 2;
+}
+.box8{
+    background-color: rgb(250, 176, 39);
+}
+
+
+
+
+
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    width: 90%;
+    height: 500px;
+    margin: 30px auto;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.item1 {
+    grid-column: span 2;
+    background-color: lightskyblue;
+}
+.item2{
+    background-color: lightsalmon;
+}
+.item3{
+    grid-row: span 2;
+    background-color: rgb(155, 243, 155);
+}
+.item4{
+    background-color: pink;
+}
+.item5{
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: rgb(214, 141, 214);
+}
+.item6{
+    background-color: rgb(236, 236, 166);
+}
+.item7{
+    background-color: skyblue;
+}
